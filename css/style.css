@@ -12,7 +12,7 @@ body{
 	line-height: 1.5;
 }
 
-header,nav,#breadcrumb,#contets,footer{
+header,nav,#breadcrumb,#contents,footer{
 	margin: 0 auto 0 auto;
 	width: 840px;
 }
@@ -76,7 +76,7 @@ footer {
 	padding-top:70px;
 }
 
-#main h1 {
+#main h1{
 	margin: 0 0 30px 0;
 	padding:35px 0 35px 65px;
 	font-size: 156.25%;
@@ -86,9 +86,9 @@ footer {
 }
 
 #concept #nav_concept a,
-#concept #nav_contact a,
-#concept #nav_fair a,
-#concept #nav_plan a,
+#contact #nav_contact a,
+#fair #nav_fair a,
+#plan #nav_plan a,
 nav ul li a:hover{
 	background-position:0 -45px;
 }
@@ -97,18 +97,91 @@ nav ul li a:hover{
 	opacity: 0.8;
 }
 
-
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
+#news ul{
+	list-style-type: none;
+	padding-left: 0;
+}
 
+#news ul li{
+	padding: 20px 0px 20px 175px;
+	border-bottom: 1px dotted #6c5f45;
+	color: #342300;
+	text-indent: -175px;
+}
+
+#news ul li time{
+	display: inline-block;
+	width: 175px;
+	font-weight: bold;
+	color: #6c5f45;
+	text-indent: 0;
+}
 /* トップページ ここまで↑ */
 
 /* 「結婚式場のコンセプト」ページ ここから↓ */
+.concept_box{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.concept_box:last-child,
+.concept_box p:last-child{
+	margin-bottom: 0;
+}
+
+.image_right{
+	float:right;
+	margin-left:25px;
+}
+
+.image_left{
+	float:left;
+	margin-right:25px;
+}
 
 /* 「結婚式場のコンセプト」ページ ここまで↑ */
 
 /* 「プランのご案内」ページ ここから↓ */
+table{
+	border-collapse: collapse;
+}
+
+caption{
+	text-align: left;
+	margin-bottom:30px;
+}
+
+caption p{
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+table tr th:first-child{
+	width:70px;
+}
+
+table tbody th,
+table tbody td{
+	vertical-align: top;
+}
+
+table th,table td{
+	padding: 15px;
+	border: 1px solid #6c5f45;
+}
+
+table thead tr th{
+	background-color: #eee8cc;
+}
+
+table tbody tr:nth-child(odd){
+	background-color: #ffffff;
+}
+
+
 
 /* 「プランのご案内」ページ ここまで↑ */
 
