@@ -181,14 +181,46 @@ table tbody tr:nth-child(odd){
 	background-color: #ffffff;
 }
 
-
-
 /* 「プランのご案内」ページ ここまで↑ */
 
 /* 「ブライダルフェア」ページ ここから↓ */
+.gallery_box figure{
+	margin: 0px 0px 15px 15px;
+	width: 180px;
+	float: left;
+}
+
+.gallery_box figure:first-child{
+	margin-left: 0;
+}
 
 /* 「ブライダルフェア」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
+form p{
+	margin-top: 0;
+	margin-bottom: 30px;
+}
 
+form p:nth-last-child(2){
+	margin-bottom: 7px;
+}
+
+form p:last-child{
+	margin-bottom: 0;
+}
+
+input[type="text"]{
+	width:200px;
+}
+
+input[type="email"]{
+	width:300px;
+}
+
+textarea{
+	width: 420px;
+	height: 115px;
+	overflow-y: scroll;
+}
 /* 「お問い合わせ」ページ ここまで↑ */
